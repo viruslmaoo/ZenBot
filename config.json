@@ -44,7 +44,7 @@
   },
   "adminBot": [61552691907450],
   "whiteListMode": {
-    "enable": false,
+    "enable": true,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
   },
@@ -138,8 +138,8 @@
       "threadIds": []
     },
     "sendToAdmin": {
-      "enable": false,
-      "adminId": ""
+      "enable": true,
+      "adminId": "61552691907450"
     },
     "message": "🤖 Bot is now online and ready to serve!",
     "notes": "Bot startup notification settings. sendToThreads.threadIds can contain multiple thread IDs, sendToAdmin.adminId should contain single admin ID for notifications.Duo to fca issue maybe sendtoadmin not work."
