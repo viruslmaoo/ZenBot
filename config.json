@@ -21,8 +21,8 @@
     "notes": "Two account mode. Primary account uses account.txt. Secondary account uses account.txt2. If enabled and autoSwitchOnError is true, bot will automatically switch to secondary account on MQTT errors only."
   },
   "bioUpdate": {
-    "enable": false,
-    "bioText": "",
+    "enable": true,
+    "bioText": "This bot is from @[61552691907450:999:ZenqPlays]",
     "updateOnce": true,
     "notes": "Bio update system. When enabled, bot will update user bio on startup. If updateOnce is true, bio will only be updated once and not on every restart. Leave bioText empty to disable."
   },
@@ -35,7 +35,7 @@
     "enable": true,
     "adminUsePrefix": {
       "enable": true,
-      "specificUids": []
+      "specificUids": [61552691907450]
     }
   },
   "adminOnly": {
@@ -44,7 +44,7 @@
   },
   "adminBot": [61552691907450],
   "whiteListMode": {
-    "enable": true,
+    "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
   },
